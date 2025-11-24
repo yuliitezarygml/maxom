@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAXIM CALMATUI | Digital Explorer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <nav class="navbar">
+        <div class="logo">MC<span class="accent">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#gallery" class="nav-link">Gallery</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <p class="glitch-text-sm">HELLO WORLD, I AM</p>
+                <h1 class="glitch-name" data-text="MAXIM CALMATUI">MAXIM CALMATUI</h1>
+                <div class="typewriter-container">
+                    <span id="typewriter"></span><span class="cursor">|</span>
+                </div>
+                <p class="hero-subtitle">Student @ Professional School #5</p>
+                <a href="#contact" class="cta-button">Let's Talk</a>
+            </div>
+            <div class="scroll-indicator">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About <span class="accent">Me</span></h2>
+                <div class="about-wrapper">
+                    <div class="profile-image-container">
+                        <div class="glitch-img-wrapper">
+                            <img src="img/photo_2024-03-21_21-46-16.jpg" alt="MAXIM CALMATUI" class="profile-image glitch-img">
+                            <img src="img/photo_2024-03-21_21-46-16.jpg" alt="" class="profile-image glitch-img-layer" aria-hidden="true">
+                            <img src="img/photo_2024-03-21_21-46-16.jpg" alt="" class="profile-image glitch-img-layer" aria-hidden="true">
+                        </div>
+                        <div class="profile-border"></div>
+                    </div>
+                    <div class="about-grid">
+                        <div class="about-card glass-card">
+                            <h3>Who am I?</h3>
+                            <p>I'm currently a student at <strong>Professional School #5</strong>. To be honest, I'm just starting my journey into the world of code. I might not know everything yet, but I have a burning curiosity and a drive to create unique digital experiences.</p>
+                        </div>
+                        <div class="about-card glass-card">
+                            <h3>My Mission</h3>
+                            <p>Turning "I don't know" into "I figured it out". Every line of code is a new lesson. I'm exploring HTML, CSS, and Java(Script) to build things that look cool and work smoothly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Loading <span class="accent">Skills...</span></h2>
+                <div class="skills-container">
+                    <div class="skill-bar-wrapper">
+                        <div class="skill-info">
+                            <span>HTML5</span>
+                            <span>Loading...</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 45%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-wrapper">
+                        <div class="skill-info">
+                            <span>CSS3 & Animations</span>
+                            <span>Loading...</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 40%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-wrapper">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>Initializing...</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 25%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-wrapper">
+                        <div class="skill-info">
+                            <span>Design Intuition</span>
+                            <span>Buffering...</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2 class="section-title">Photo <span class="accent">Gallery</span></h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="glitch-border"></div>
+                        <div class="glitch-img-wrapper">
+                            <img src="img/photo_2024-03-21_21-46-16.jpg" alt="Macim Calmatui" loading="lazy" class="glitch-img">
+                            <img src="img/photo_2024-03-21_21-46-16.jpg" alt="" class="glitch-img-layer" aria-hidden="true">
+                            <img src="img/photo_2024-03-21_21-46-16.jpg" alt="" class="glitch-img-layer" aria-hidden="true">
+                        </div>
+                        <div class="gallery-overlay">
+                            <span>2024</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="glitch-border"></div>
+                        <div class="glitch-img-wrapper">
+                            <img src="img/photo_2024-03-21_21-46-36.jpg" alt="Macim Calmatui" loading="lazy" class="glitch-img">
+                            <img src="img/photo_2024-03-21_21-46-36.jpg" alt="" class="glitch-img-layer" aria-hidden="true">
+                            <img src="img/photo_2024-03-21_21-46-36.jpg" alt="" class="glitch-img-layer" aria-hidden="true">
+                        </div>
+                        <div class="gallery-overlay">
+                            <span>2024</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="glitch-border"></div>
+                        <div class="glitch-img-wrapper">
+                            <img src="img/photo_2024-12-01_17-33-37.jpg" alt="Macim Calmatui" loading="lazy" class="glitch-img">
+                            <img src="img/photo_2024-12-01_17-33-37.jpg" alt="" class="glitch-img-layer" aria-hidden="true">
+                            <img src="img/photo_2024-12-01_17-33-37.jpg" alt="" class="glitch-img-layer" aria-hidden="true">
+                        </div>
+                        <div class="gallery-overlay">
+                            <span>2024</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="glitch-border"></div>
+                        <div class="glitch-img-wrapper">
+                            <img src="img/photo_2025-06-07_01-01-31.jpg" alt="Macim Calmatui" loading="lazy" class="glitch-img">
+                            <img src="img/photo_2025-06-07_01-01-31.jpg" alt="" class="glitch-img-layer" aria-hidden="true">
+                            <img src="img/photo_2025-06-07_01-01-31.jpg" alt="" class="glitch-img-layer" aria-hidden="true">
+                        </div>
+                        <div class="gallery-overlay">
+                            <span>2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+                <div class="contact-wrapper glass-card">
+                    <p>Have a project or just want to say hi? I'm always open to learning new things.</p>
+                    <a href="mailto:contact@example.com" class="email-link">macim@example.com</a>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">GH</a> <!-- GitHub placeholder -->
+                        <a href="#" class="social-icon">IG</a> <!-- Instagram placeholder -->
+                        <a href="#" class="social-icon">TG</a> <!-- Telegram placeholder -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sinkdev.dev. Built with <span class="heart">♥</span> and confusion.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
